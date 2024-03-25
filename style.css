@@ -46,20 +46,11 @@ margin-left: 50px;
     display: flex;
 }
 
-.infoContainer {
-    /* background-color: magenta; */
-    width: 80vw;
-    height: 58vh;
-    margin: 60px auto;
-    display: flex;
-    justify-content: space-around;
-    /* flex-wrap: wrap; */
-}
-
 .devInfo {
     font-size: 16px;
-    display: flex;
+    /* display: flex; */
     /* justify-content: center; */
+   
     flex-direction: column;
     font-family: "Source Code Pro", monospace;
 }
@@ -114,6 +105,7 @@ margin-left: 50px;
 }
 
 .devPic img {
+    position: absolute;
     height: 30vh;
     padding: 25px;
 
@@ -248,11 +240,22 @@ p {
 .infoContainer {
 width: 82vw;
 height: 56vh;
-margin: 50px auto;
+margin: 60px auto;
 display: flex;
+
 justify-content: space-around;
-flex-wrap: wrap;
+
 }
+
+/* .infoContainer {
+    /* background-color: magenta; */
+    /* width: 82vw;
+    height: 58vh;
+    margin: 60px auto;
+    display: flex; */
+    /* justify-content: space-around; */
+    /* flex-wrap: wrap; */
+/* } */ */
 
 @media (max-width: 1630px){
     /* *{
@@ -280,12 +283,12 @@ flex-wrap: wrap;
     left: 10px;
 }
 
-.fa-xmark{
-    margin-left: 175px;
-    margin-top: 10px;
+.cross{
+    margin-left: 160px;
+    margin-top: 8px;
 }
 
-.fa-bars{
+.ham{
     margin-top: 10px;
     margin-left: 10px;
 }
@@ -298,15 +301,7 @@ flex-wrap: wrap;
     margin: 20px 80px;
 }
 
-/* .infoContainerLeft {
-    width: 80vw;
-    height: 58vh;
-    margin: 60px auto;
-    display: flex;
-    justify-content: space-around;
-    transform: translate(250px, 10px);
-    position: absolute;
-} */
+
 
 .introLeft{
     margin: 20px 80px;
