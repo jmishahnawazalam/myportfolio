@@ -108,8 +108,8 @@ margin-left: 50px;
     position: absolute;
     height: 30vh;
     padding: 25px;
-
 }
+
 
 /* Contact */
 
@@ -248,14 +248,14 @@ justify-content: space-around;
 }
 
 /* .infoContainer {
-    /* background-color: magenta; */
-    /* width: 82vw;
+    background-color: magenta;
+    width: 82vw;
     height: 58vh;
     margin: 60px auto;
-    display: flex; */
-    /* justify-content: space-around; */
-    /* flex-wrap: wrap; */
-/* } */ */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+}*/
 
 @media (max-width: 1630px){
     /* *{
@@ -283,14 +283,15 @@ justify-content: space-around;
     left: 10px;
 }
 
-.cross{
+.fa-xmark{
     margin-left: 160px;
     margin-top: 8px;
 }
 
-.ham{
+.fa-bars{
     margin-top: 10px;
     margin-left: 10px;
+  
 }
 
 .contact{
